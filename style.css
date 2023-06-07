@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+/* 1st Part */
+.container {
+    position: relative;
+    z-index: 3;
+}
+.bg-image {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 100%;
+    z-index: 1;
+}
+.home-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 48.15%;
+    height: 45%;
+    z-index: 1;
+}
+.icon{
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 10%;
+    height: 60%;
+    width: 30%;
+    z-index: 1;
+}
+
+.bg2-image {
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 10%;
+    width: 85%;
+    z-index: 1;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+    display: inline-block;
+}
+.button--secondary {
+    background: #66ecbc;
+    color: #234e8f;
+    border: 2px solid #66ecbc;
+}
+.button{
+    display: inline-flex;
+    min-height: 40px;
+    border-radius: 7px;
+    padding: 4px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.button:hover{
+    background: #27eea9;
+    color: #234e8f;
+    border: 2px solid #27eea9;
+    transform: scale(1.1);
+}
+.button2--secondary {
+    background: #66ecbc;
+    color: #234e8f;
+    border: 2px solid #66ecbc;
+}
+.button2{
+    display: inline-flex;
+    min-height: 50px;
+    border-radius: 7px;
+    padding: 2px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.button2:hover{
+    background: #00ffa6;
+    color: #234e8f;
+    border: 2px solid #27eea9;
+    transform: scale(1.1);
+}
+li{
+    padding-right: 35px;
+    font-weight: 500;
+    transition: .8s ease;
+}
+li:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .8s ease;
+}
+.txt, .txt2{
+    font-weight: 900;
+    font-size: 40px;
+}
+.home{
+    margin-top: 10%;
+}
+/*Part 2*/
+.container1 {
+    width: 75%;
+    padding-left: 12%;
+    z-index: 2;
+    position: absolute;
+}
+.home2{
+    margin-top: 15%;
+    z-index: 2;
+}
+.cards{
+    height: 312px;
+    width: auto;
+    border-radius: 25px;
+    margin-top: 10%;
+    z-index: 2;
+} 
+.pic{
+    border-radius: 25px;
+    transition: .8s ease;
+}
+.pic:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .8s ease;
+}
+/*Part 3*/
+.home3{
+    margin-top: 50%;
+}
+.txt3{
+    font-weight: 900;
+    font-size: 25px;
+}
+/*Part 4*/
+.home4{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(240,247,255,1) 0%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    height: 100%;
+}
+.card2{
+    background-color: white;
+    height: 300px;
+    width: 348px;
+    padding: 15px;
+    margin:25px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+}
+.cardtxt{
+    color: #234E8F;
+    font-weight: 900;
+    font-size: 18px;
+}
+.button3--secondary {
+    background: #66ecbc;
+    color: #234e8f;
+    border: 2px solid #66ecbc;
+    width: 100%;
+}
+.button3{
+    display: inline-flex;
+    min-height: 40px;
+    border-radius: 7px;
+    padding: 4px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.button3:hover{
+    background: #27eea9;
+    color: #234e8f;
+    border: 2px solid #27eea9;
+    transform: scale(1.1);
+}
+.bar{
+    background-image: url("bar.jpg");
+    width: 93%;
+    height: 244px;
+    padding: 50px;
+    padding-left: 80px;
+    border-radius: 30px;
+    margin-left: 25px;
+    background-size: contain;
+}
+.button4--secondary {
+    background: #66ecbc;
+    color: #234e8f;
+    border: 2px solid #66ecbc;
+    width: 100%;
+}
+.button4{
+    display: inline-flex;
+    min-height: 50px;
+    border-radius: 7px;
+    padding: 4px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.button4:hover{
+    background: #27eea9;
+    color: #234e8f;
+    border: 2px solid #27eea9;
+    transform: scale(1.1);
+}
+.txt4{
+    font-weight: 900;
+    font-size: 30px;
+}
+/*Part 5*/
+.button5--secondary {
+    background: #66ecbc;
+    color: #234e8f;
+    border: 2px solid #66ecbc;
+    width: 35%;
+}
+.button5{
+    display: inline-flex;
+    min-height: 50px;
+    border-radius: 7px;
+    padding: 4px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.button5:hover{
+    background: #27eea9;
+    color: #234e8f;
+    border: 2px solid #27eea9;
+    transform: scale(1.1);
+}
+.bluetxt{
+    color: #234E8F;
+}
+.required:after {
+    content:" *";
+    color: red;
+}
+.button6--secondary {
+    background: #66ecbc;
+    color: #234e8f;
+    border: 2px solid #66ecbc;
+    width: 100%;
+}
+.button6{
+    display: inline-flex;
+    min-height: 50px;
+    border-radius: 7px;
+    padding: 4px 32px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.button6:hover{
+    background: #27eea9;
+    color: #234e8f;
+    border: 2px solid #27eea9;
+    transform: scale(1.1);
+}
+.scroll-content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+.scroll-content.fade-in {
+    opacity: 1;
+}
+  
